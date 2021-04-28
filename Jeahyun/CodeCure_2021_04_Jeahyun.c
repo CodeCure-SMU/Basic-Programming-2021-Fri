@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-	printf("Á¶ÀçÇö\n");
-	printf("¼ÒÇÁÆ®¿þ¾îÇÐ°ú");
+	printf("조재현\n");
+	printf("소프트웨어학과");
 	return 0;
 }
