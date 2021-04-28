@@ -1,6 +1,7 @@
 #include <stdio.h>
-int main() {
-	printf("조재현\n");
-	printf("소프트웨어학과");
-	return 0;
+int main(void)
+{
+    printf("강한친구 대한육군\n");
+    printf("강한친구 대한육군");
+    return 0;
 }
