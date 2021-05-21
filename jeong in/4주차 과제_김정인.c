@@ -126,5 +126,6 @@ int isRightTriangle(int a, int b, int c)
 	
 }
 
+// 올바르게 잘 작성했는지는 잘 모르겠습니다만 열심히 해보았습니다...
 
 
