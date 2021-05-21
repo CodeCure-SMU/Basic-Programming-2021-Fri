@@ -23,12 +23,12 @@ int main(void)
 	int n;
 	printf("Input n: ");
 	scanf_s("%d", &n);
-	printf("Fibonacci(n) = %p\n", Fibonacci);
+	printf("Fibonacci(n) = %d\n", Fibonacci);
 
 	printf("===== (3) Factorial =====");
 	printf("Input n: ");
 	scanf_s("%d", &n);
-	printf("Factorial(n) = %p\n", Factorial);
+	printf("Factorial(n) = %d\n", Factorial);
 
 	printf("===== (4) Sum(n) =====");
 	printf("Input n: ");
