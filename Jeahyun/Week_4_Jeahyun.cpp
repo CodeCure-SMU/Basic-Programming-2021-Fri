@@ -1,4 +1,4 @@
-// Á¶ÀçÇö 202121063 
+// ÃÂ¶Ã€Ã§Ã‡Ã¶ 202121063 
 #include <stdio.h>
 double divide(double dividend, double divisor)
 {
