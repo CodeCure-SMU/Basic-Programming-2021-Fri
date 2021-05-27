@@ -3,7 +3,7 @@
 int main()
 {
     char word[100] = { 0 };
-    scanf("%s", word, sizeof(word));
+    scanf("%s", &word, sizeof(word));
     for (int i = 97; i <= 122; i++) 
     {
         int j = 0;
