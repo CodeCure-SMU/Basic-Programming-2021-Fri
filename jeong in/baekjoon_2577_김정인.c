@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*int main()
+int main()
 {
     int a, b, c;
     int i;
-    int arr[10] = { 0, }; // ¹è¿­ÀÇ ¿ä¼Ò¸¦ ¸ğµÎ 0À¸·Î ÃÊ±âÈ­ 
+    int arr[10] = { 0, }; // ë°°ì—´ì˜ ìš”ì†Œë¥¼ ëª¨ë‘ 0ìœ¼ë¡œ ì´ˆê¸°í™” 
     scanf("%d %d %d", &a, &b, &c);
     int n = a * b * c;
     int rest;
@@ -22,30 +22,4 @@
     }
 
     return 0;
-}*/
-int main()
-{
-	int A, B, C;
-	long result;
-	char num[1000]= { 0, };
-	int ch, i;
-	int array[10] = {0};
-	
-	scanf("%d", &A);
-	scanf("%d", &B);
-	scanf("%d", &C);
-	result = A * B * C;
-	sprintf(num, "%ld", result);
-	for (i = 0; i < 1000; i++)
-	{
-		ch = num[i] - '0';
-		array[ch] += 1;
-	}
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d\n", array[i]);
-	}
-	
-	
-
 }
